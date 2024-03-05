@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu {
-  padding: 15px 0 0 0;
+  padding: 30px 0 0 0;
 }
 .nav-menu * {
   margin: 0;
@@ -145,7 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   color: #a8a9b4;
-  padding: 7px 15px;
+  padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 32px;
+  font-size: 64px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;
@@ -267,69 +267,6 @@ section {
 .section-title {
   padding-bottom: 30px;
 }
-
-.section-title a {
-  font-size: 20px;
-  font-weight: bold;
-  position: relative;
-  color: #173b6c;
-  display: inline;
-  /*background-color: #c5ff3e;*/
-}
-.section-title .btn {
-  font-size: 20px;
-  top: -7px;
-  font-weight: bold;
-  position: relative;
-  color: #173b6c;
-  display: inline;
-  /*background-color: #c5ff3e;*/
-}
-/*.section-title .btn:hover {
-  border: 2px solid #4CAF50;
-}*/
-.btn {
-  display: inline-block;
-  border-radius: 5px;
-  /*background-color: #f4511e;*/
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.btn span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.btn span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.btn:hover span {
-  padding-right: 25px;
-}
-
-.btn:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-
-
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -337,7 +274,6 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #173b6c;
-  display: inline;
 }
 .section-title h2::after {
   content: "";
@@ -352,19 +288,6 @@ section {
 .section-title p {
   margin-bottom: 0;
 }
-
-/*--------------------------------------------------------------
-# Column of Sections General
---------------------------------------------------------------*/
-
-/* ini sextion a nya kok hilang? Gak ngerti, gak harus ono kok wkwk.
-sakjane kan ngene...
-gak ono sing berubah.. hhhahaha
-Jos lah hahah
-iki lek misale tombol e tak geser ke samping e about sama aja kan ya
-JOOOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS  Miming tien cien
-:D
-*/
 
 /*--------------------------------------------------------------
 # About
@@ -442,7 +365,7 @@ JOOOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS  Miming tien cien
 }
 
 /*--------------------------------------------------------------
-# Skills
+# Akills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -591,7 +514,7 @@ JOOOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS  Miming tien cien
   margin-bottom: 5px;
 }
 .resumeol ol.journal li:before {
-  content: "J" counter(list) " ";
+  content: " J" counter(list) " ";
   font-size: 16px;
   padding-left: 10px;
   padding-right: 0px;
@@ -645,71 +568,6 @@ JOOOOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS  Miming tien cien
   border: 2px solid #1f5297;
 }
 
-/*--------------------------------------------------------------
-# Award
---------------------------------------------------------------*/
-.Award .Award-title {
-  font-size: 26px;
-  font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #050d18;
-}
-.Award .Award-item {
-  padding: 0 0 20px 20px;
-  margin-top: -2px;
-  border-left: 2px solid #1f5297;
-  position: relative;
-}
-.Award .Award-item h4 {
-  line-height: 18px;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #050d18;
-  margin-bottom: 5px;
-}
-.Award .Award-item h5 {
-  font-size: 18px;
-  font-style: italic;
-  display: inline-block;
-  font-weight: 400;
-  margin-bottom: 5px;
-}
-.Award .Award-item h5.gpa {
-  all: none;
-  font-size: 16px;
-  background: #e4edf9;
-  padding: 5px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-.Award .Award-item p {
-  margin-bottom: 3px;  
-  margin-top: 0px;
-}
-.Award .Award-item ul {
-  padding-left: 20px;
-}
-.Award .Award-item ul li {
-  padding-bottom: 10px;
-}
-.Award .Award-item:last-child {
-  padding-bottom: 0;
-}
-.Award .Award-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #1f5297;
-}
 
 /*--------------------------------------------------------------
 # Portfolio
